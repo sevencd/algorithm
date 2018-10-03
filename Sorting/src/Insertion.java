@@ -1,3 +1,5 @@
+package Sorting.src;
+
 public class Insertion<T extends Comparable<T>> extends Sort<T> {
 
     @Override

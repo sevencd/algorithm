@@ -1,3 +1,5 @@
+package Sorting.src;
+
 public class ThreeWayQuickSort<T extends Comparable<T>> extends QuickSort<T> {
 
     @Override

@@ -1,3 +1,5 @@
+package Sorting.src;
+
 public class Down2UpMergeSort<T extends Comparable<T>> extends MergeSort<T> {
 
     @Override
