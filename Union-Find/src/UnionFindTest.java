@@ -1,6 +1,6 @@
 import org.junit.Assert;
 
-public class Test {
+public class UnionFindTest {
 
     private final int N = 10;
 

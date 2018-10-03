@@ -1,3 +1,4 @@
+import Sorting.src.OutUtil;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -16,6 +17,8 @@ public class HeapSortTest {
 
         HeapSort<Integer> sort = new HeapSort<>();
         sort.sort(numsBefore);
+        OutUtil.print(numsBefore,1);
+        OutUtil.printLamba(numsBefore);
 
         Assert.assertArrayEquals(numsBefore, numsAfter);
     }

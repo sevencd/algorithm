@@ -1,6 +1,6 @@
 import org.junit.Assert;
 
-public class Test {
+public class ThreeSumTest {
 
     private final int[] nums = {-2, -1, 0, 1, 2};
     private final int expect = 2;

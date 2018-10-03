@@ -1,6 +1,6 @@
 import org.junit.Assert;
 
-public class Test {
+public class QueueTest {
 
     @org.junit.Test
     public void ListStackTest() throws Exception {

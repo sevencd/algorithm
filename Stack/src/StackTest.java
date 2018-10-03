@@ -2,7 +2,7 @@ import org.junit.Assert;
 
 import static org.junit.Assert.assertTrue;
 
-public class Test {
+public class StackTest {
 
     @org.junit.Test
     public void ResizingArrayStackTest() throws Exception {

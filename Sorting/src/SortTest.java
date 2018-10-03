@@ -1,9 +1,10 @@
+import Sorting.src.OutUtil;
 import org.junit.Assert;
 
 import java.util.Arrays;
 import java.util.stream.Collectors;
 
-public class Test {
+public class SortTest {
 
     private Integer[][] numsBefore = {
             {1, 2, 3},
@@ -45,7 +46,6 @@ public class Test {
         test(new Shell<>());
     }
 
-
     @org.junit.Test
     public void Up2DownMergeSortTest() {
         test(new Up2DownMergeSort<>());
@@ -76,30 +76,7 @@ public class Test {
             sort.sort(numsBefore[i]);
             //Assert.assertArrayEquals(numsBefore[i], numsAfter[i]);
         }
-        //print();
-        printLamba();
-    }
-    //普通用户
-    private void print() {
-        for (int i = 0; i < numsBefore.length; i++) {
-            System.out.print("第" + (i + 1) + "行");
-            StringBuilder str = new StringBuilder();//单行打印字符串
-            for (int j = 0; j < numsBefore[i].length; j++) {
-                str.append(numsBefore[i][j] + ",");
-            }
-            System.out.print(str.substring(0, str.length() - 1));
-            System.out.println();
-
-        }
-
-    }
-    //lamba用法
-    private void printLamba () {
-        for (int i = 0; i < numsBefore.length; i++) {
-            System.out.print("第" + (i + 1) + "行");
-            System.out.println(Arrays.stream(numsBefore[i]).map(x -> x.toString())
-                    .collect(Collectors.joining(",")));
-        }
-
+        OutUtil.printLamba(numsBefore);
+        OutUtil.print(numsBefore);
     }
 }
