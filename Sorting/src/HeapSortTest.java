@@ -18,7 +18,7 @@ public class HeapSortTest {
         HeapSort<Integer> sort = new HeapSort<>();
         sort.sort(numsBefore);
         OutUtil.print(numsBefore,1);
-        OutUtil.printLamba(numsBefore);
+        OutUtil.printLamba(numsBefore,1);
 
         Assert.assertArrayEquals(numsBefore, numsAfter);
     }

@@ -25,58 +25,69 @@ public class SortTest {
 
     @org.junit.Test
     public void SelectionTest() {
-        test(new Selection<>());
+        test(new Selection<>(),"选择排序");
     }
 
 
     @org.junit.Test
     public void BubbleTest() {
-        test(new Bubble<>());
+        test(new Bubble<>(),"冒泡排序");
     }
 
 
     @org.junit.Test
     public void InsertionTest() {
-        test(new Insertion<>());
+        test(new Insertion<>(),"插入排序");
     }
 
 
     @org.junit.Test
     public void ShellTest() {
-        test(new Shell<>());
+        test(new Shell<>(),"希尔排序");
     }
 
     @org.junit.Test
     public void Up2DownMergeSortTest() {
-        test(new Up2DownMergeSort<>());
+        test(new Up2DownMergeSort<>(),"自顶向下归并排序");
     }
 
 
     @org.junit.Test
     public void Down2UpMergeSortTest() {
-        test(new Down2UpMergeSort<>());
+        test(new Down2UpMergeSort<>(),"自底向上归并排序");
     }
 
 
     @org.junit.Test
     public void QuickSortTest() {
-        test(new QuickSort<>());
+        test(new QuickSort<>(),"快速排序");
     }
 
 
     @org.junit.Test
     public void ThreeWayQuickSortTest() {
-        test(new ThreeWayQuickSort<>());
+        test(new ThreeWayQuickSort<>(),"三切分快速排序");
     }
 
 
     private void test(Sort<Integer> sort) {
+        for (int i = 0; i < numsBefore.length; i++) {
+            sort.sort(numsBefore[i]);
+            //Assert.assertArrayEquals(numsBefore[i], numsAfter[i]);
+        }
+        OutUtil.print(numsBefore);
+    }
+
+    private void test(Sort<Integer> sort,String algorithmName) {
+        long t = System.nanoTime();
 
         for (int i = 0; i < numsBefore.length; i++) {
             sort.sort(numsBefore[i]);
             //Assert.assertArrayEquals(numsBefore[i], numsAfter[i]);
         }
+        long time=System.nanoTime()-t;
         OutUtil.printLamba(numsBefore);
-        OutUtil.print(numsBefore);
+        System.out.println(algorithmName+time);
+
     }
 }
