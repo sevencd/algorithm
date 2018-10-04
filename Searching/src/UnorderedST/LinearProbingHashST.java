@@ -1,4 +1,4 @@
-package UnorderedST;
+package Searching.src.UnorderedST;
 
 public class LinearProbingHashST<Key, Value> implements UnorderedST<Key, Value> {
 

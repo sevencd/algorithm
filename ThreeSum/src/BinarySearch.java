@@ -1,3 +1,4 @@
+package ThreeSum.src;
 public class BinarySearch {
 
     public static int search(int[] nums, int target) {

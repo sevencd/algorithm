@@ -1,3 +1,5 @@
+package ThreeSum.src;
+
 import org.junit.Assert;
 
 public class ThreeSumTest {

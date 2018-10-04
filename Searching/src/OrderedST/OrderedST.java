@@ -1,4 +1,4 @@
-package OrderedST;
+package Searching.src.OrderedST;
 
 import java.util.List;
 

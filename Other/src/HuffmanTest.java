@@ -1,3 +1,4 @@
+package Other.src;
 import org.junit.Assert;
 
 import java.util.HashMap;

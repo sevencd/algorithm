@@ -1,3 +1,4 @@
+package MutiThreading.src;
 import java.util.concurrent.Semaphore;
 
 public class AlternatePrint {

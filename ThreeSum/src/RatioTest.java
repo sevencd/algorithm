@@ -1,3 +1,5 @@
+package ThreeSum.src;
+
 /**
  * 倍率实验
  */

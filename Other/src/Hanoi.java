@@ -1,3 +1,4 @@
+package Other.src;
 public class Hanoi {
 
     public static void move(int n, String from, String buffer, String to) {

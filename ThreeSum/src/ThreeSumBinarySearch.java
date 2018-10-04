@@ -1,3 +1,5 @@
+package ThreeSum.src;
+
 import java.util.Arrays;
 
 public class ThreeSumBinarySearch implements ThreeSum {

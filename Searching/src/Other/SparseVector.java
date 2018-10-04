@@ -1,4 +1,4 @@
-package Other;
+package Searching.src.Other;
 
 import java.util.HashMap;
 

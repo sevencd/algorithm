@@ -1,3 +1,5 @@
+package UnionFind.src;
+
 public class WeightedQuickUnionUF extends UF {
 
     // 保存节点的数量信息

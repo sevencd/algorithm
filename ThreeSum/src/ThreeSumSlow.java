@@ -1,3 +1,5 @@
+package ThreeSum.src;
+
 public class ThreeSumSlow implements ThreeSum {
     @Override
     public int count(int[] nums) {

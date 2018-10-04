@@ -1,3 +1,5 @@
+package UnionFind.src;
+
 import org.junit.Assert;
 
 public class UnionFindTest {

@@ -1,4 +1,4 @@
-package UnorderedST;
+package Searching.src.UnorderedST;
 
 public interface UnorderedST<Key, Value> {
 

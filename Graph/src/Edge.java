@@ -1,3 +1,5 @@
+package Graph.src;
+
 public class Edge {
 
     private int v;           // 顶点

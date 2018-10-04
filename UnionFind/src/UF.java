@@ -1,3 +1,5 @@
+package UnionFind.src;
+
 public abstract class UF {
 
     protected int[] id;

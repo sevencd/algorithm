@@ -1,3 +1,5 @@
+package UnionFind.src;
+
 public class QuickFindUF extends UF {
 
     public QuickFindUF(int N) {

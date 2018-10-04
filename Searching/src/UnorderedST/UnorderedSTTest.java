@@ -1,4 +1,4 @@
-package UnorderedST;
+package Searching.src.UnorderedST;
 
 import org.junit.Assert;
 
