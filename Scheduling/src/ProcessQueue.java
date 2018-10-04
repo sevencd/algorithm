@@ -1,3 +1,5 @@
+package Scheduling.src;
+
 public interface ProcessQueue {
 
     void add(Process process);

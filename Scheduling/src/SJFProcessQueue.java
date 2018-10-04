@@ -1,3 +1,5 @@
+package Scheduling.src;
+
 import java.util.PriorityQueue;
 
 public class SJFProcessQueue implements ProcessQueue {

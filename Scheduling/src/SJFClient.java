@@ -1,3 +1,5 @@
+package Scheduling.src;
+
 public class SJFClient {
 
     public static void main(String[] args) {

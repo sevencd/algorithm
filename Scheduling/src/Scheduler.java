@@ -1,3 +1,5 @@
+package Scheduling.src;
+
 public class Scheduler extends Thread {
 
     protected ProcessQueue processQueue;

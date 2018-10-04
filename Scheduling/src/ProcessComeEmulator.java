@@ -1,3 +1,5 @@
+package Scheduling.src;
+
 public class ProcessComeEmulator extends Thread {
 
     private ProcessQueue processQueue;
